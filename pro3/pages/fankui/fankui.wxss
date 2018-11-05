@@ -1,0 +1,42 @@
+/* pages/fankui/fankui.wxss */
+
+.we{
+  margin-top: 16px;
+  border: solid 1rpx silver;
+  border-radius: 10px;
+  margin-left: 25rpx;
+  width: 700rpx;
+  height: 410rpx;
+}
+
+.qq{
+  background-color: whitesmoke;
+  width: 134rpx;
+  height: 134rpx;S
+  
+}
+
+.qw{
+  background-color: whitesmoke;
+  width: 134rpx;
+  height: 134rpx;
+}
+
+.qq image{
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 26rpx;
+  margin-left: 46rpx;
+}
+
+.qq input{
+  font-size: 24rpx;
+  margin-left: 18rpx;
+
+}
+.ww{
+  width: 700rpx;
+  margin-top: 30rpx;
+  height: 134rpx;
+  margin-left: 30rpx;
+}

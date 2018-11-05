@@ -1,0 +1,29 @@
+<!--pages/address/address.wxml-->
+<form>
+  <view class='form te'>
+    <text class='tt'>收货人：</text>
+    <input type='text' placeholder='姓名'></input>
+  </view>
+  <view class='form'>
+    <text class='tt'>联系方式：</text>
+    <input type='text' placeholder='手机号'></input>
+  </view>
+  <view class='form'>
+    <text class='tt'>所在地区：</text>
+    <input type='text' placeholder="北京市海淀区"></input>
+  </view>
+  <view class='form fore'>
+    <text class='tt'>详细地址：</text>
+    <input type='text' placeholder="街道、楼牌号等"></input>
+  </view>
+  <view class='er'>
+    <button class='but'>保存</button>
+  </view>
+
+    <view class='tr'>
+      <radio></radio>
+      <input placeholder='设为默认地址'></input>
+    </view>
+  
+
+</form>

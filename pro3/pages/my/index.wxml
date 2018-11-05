@@ -1,0 +1,7 @@
+<!--pages/index/index.wxml-->
+<view class='text'>
+  <text class='text'>欢迎进入个人中心</text>
+</view>
+
+<button bindtap="map" class='btnone' size='mini'>新增地址</button>
+<button bindtap="fk" class='btntwo' size='mini'>申请反馈</button>

@@ -1,0 +1,122 @@
+<!-- 头 -->
+<view class="header">
+    <!-- 活动规则 -->
+    <view class="activ-role" bindtap='hd'>
+      活动规则
+    </view>
+
+    <!-- 活动产品 -->
+    <view class="activ-pro">
+
+      <image src="{{webroot}}{{datainfo.prize.activity_logo}}" class="activ-img"></image>
+
+      <view class="activ-pk">
+        <view class="nb" bindtap='dj' id='nb'><text id='nb'>{{datainfo.prize.z}}%</text><text class="activ-pk-font">牛批</text></view>
+        <view class="pk"></view>
+        <view class="lj" bindtap='dj' id='lj'><text id='lj'>{{datainfo.prize.c}}%</text><text class="activ-pk-font">垃圾</text></view>
+      </view>
+
+      <!-- 结束时间 -->
+      <view class="activ-date" >{{gqsj}}</view>
+    </view>
+
+</view>
+
+<!-- 主体 -->
+<view class="main" hidden='1'>
+    <!-- 评论 -->
+    <view class="comment">
+      <!-- 获奖作品 -->
+      <view class="prize"></view>
+      <!-- 头像 -->
+      <view class="comment-user">
+        <image src="http://39.105.101.0/assets/hj_1.png" class="comment-portrait"></image>
+        <view class="comment-name">妖王</view>
+        <view class="comment-date">1分钟前</view>
+        <!-- 评论内容 -->
+        <view class="comment-content">我是内容我是内容我是内容</view>
+      </view>
+      <!-- 赞 -->
+      <view class="z-info"><text class="z-count">55</text><view class="z-img"></view></view>
+      <!-- 评论底部 -->
+      <view class="comment-foot">
+        <view class="foot-left"><view>嘿嘿嘿</view>等人<view>共233人回复</view></view>
+        <view class="foot-right">
+            <view class="comment-forward"></view>
+            <view>433</view>
+            <view class="comment-count"></view>
+            <view>433</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="comment">
+      <!-- 头像 -->
+      <view class="comment-user">
+        <image src="http://39.105.101.0/assets/hj_1.png" class="comment-portrait"></image>
+        <view class="comment-name">妖王</view>
+        <view class="comment-date">1分钟前</view>
+        <!-- 评论内容 -->
+        <view class="comment-content">我是内容我是内容我是内容</view>
+      </view>
+      <!-- 赞 -->
+      <view class="z-info"><text class="z-count">55</text><view class="z-img"></view></view>
+      <!-- 评论底部 -->
+      <view class="comment-foot">
+        <view class="foot-left"><view>嘿嘿嘿</view>等人<view>共233人回复</view></view>
+        <view class="foot-right">
+            <view class="comment-forward"></view>
+            <view>433</view>
+            <view class="comment-count"></view>
+            <view>433</view>
+        </view>
+      </view>
+    </view>
+
+    <!-- 邀请好友帮我点赞 -->
+    <view class="comment box-color">
+      <!-- 头像 -->
+      <view class="my-info">
+        <image class="my-img" src="http://39.105.101.0/assets/hj_1.png"></image>
+        <view class="my-name">污妖王</view>
+        <view class="my-z-info"><text class="my-z">999</text>个赞</view>
+      </view>
+      <view class="my-comment">谁想我了？</view>
+      <view class="yqhy">邀请好友帮我点赞</view>
+    </view>
+
+    <!-- 帮他点赞 -->
+    <view class="comment box-color">
+      <!-- 头像 -->
+      <view class="my-info">
+        <image class="my-img" src="http://39.105.101.0/assets/hj_1.png"></image>
+        <view class="my-name">污妖王</view>
+        <view class="my-z-info"><text class="my-z">999</text>个赞</view>
+      </view>
+      <view class="my-comment">谁想我了？</view>
+      <view class="btdz">帮他点赞</view>
+    </view>
+
+
+    <!-- 上拉加载更多 -->
+    <view class="next-page">上拉加载更多</view>
+</view>
+
+<!-- 参与讨论 -->
+<view class="footer">
+  <view class="cy-tl">参与讨论</view>
+  <view class="cy-user" bindtap='my' ></view>
+</view>
+
+<!-- 帮好友点赞成功 -->
+<view class="open-view" hidden='1'>
+  <view class="mscy">
+    <view class="mscy-title">帮好友<text class="red">点赞成功</text>了</view>
+    <view class="mscy-content">参与讨论该商品，获赞最高<text class="red">免费送</text>您一个哦!</view>
+    <view class="mscy-btn">马上参与</view>
+  </view>
+  <view class="close-view">
+    <view class="close-line"></view>
+    <view class="close"></view>
+  </view>
+</view>

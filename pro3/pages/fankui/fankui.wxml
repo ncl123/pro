@@ -1,0 +1,8 @@
+<!--pages/fankui/fankui.wxml-->
+<textarea class='we' placeholder='可输入200个字'></textarea>
+<view class='ww'>
+  <view class='qq'>
+    <image src='http://47.93.198.68/assets/%E6%B7%BB%E5%8A%A0.png'></image>
+    <input type='text' placeholder='添加照片'></input>
+  </view>
+</view>
